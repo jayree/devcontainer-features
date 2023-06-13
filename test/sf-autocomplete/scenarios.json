@@ -1,5 +1,5 @@
 {
-  "sf_features": {
+  "sf_autocomplete": {
     "image": "mcr.microsoft.com/devcontainers/base:debian",
     "features": {
       "ghcr.io/devcontainers-contrib/features/salesforce-cli:1": {},
@@ -7,11 +7,7 @@
         "installZsh": true,
         "configureZshAsDefaultShell": true,
         "installOhMyZsh": false,
-        "upgradePackages": false,
-        "username": "node"
-      },
-      "sf-plugins": {
-        "plugins": "@jayree/sfdx-plugin-manifest"
+        "upgradePackages": false
       },
       "sf-autocomplete": {}
     }
