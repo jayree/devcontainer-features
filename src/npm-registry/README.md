@@ -1,7 +1,7 @@
 
 # npm registry (npm-registry)
 
-Add npm registry.
+Adds npm registry.
 
 ## Example Usage
 
