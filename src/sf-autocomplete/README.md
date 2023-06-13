@@ -1,7 +1,7 @@
 
 # sf autocomplete (sf-autocomplete)
 
-Enables sf autocomplete.
+Enables sf zsh autocompletion.
 
 ## Example Usage
 
