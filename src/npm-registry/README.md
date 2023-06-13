@@ -1,15 +1,13 @@
 
-# Hello, World! (hello)
+# npm registry (npm-registry)
 
-A hello world feature
+Add npm registry.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/hello:1": {
-        "version": "latest"
-    }
+    "ghcr.io/jayree/devcontainer-features/npm-registry:1": {}
 }
 ```
 
@@ -17,10 +15,10 @@ A hello world feature
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
+| registry | Registry configuration. | string | - |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/hello/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/jayree/devcontainer-features/blob/main/src/npm-registry/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
