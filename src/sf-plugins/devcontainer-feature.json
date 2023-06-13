@@ -1,0 +1,16 @@
+{
+  "name": "sf plugins",
+  "id": "sf-plugins",
+  "version": "1.0.0",
+  "description": "Installs sf plugins.",
+  "documentationURL": "https://github.com/jayree/devcontainer-features/tree/main/src/sf-plugins",
+  "installsAfter": ["ghcr.io/devcontainers-contrib/features/salesforce-cli"],
+  "options": {
+    "plugins": {
+      "type": "string",
+      "proposals": ["@jayree/sfdx-plugin-org,@jayree/sfdx-plugin-manifest"],
+      "default": "",
+      "description": "Comma separated list of sf plugins to install."
+    }
+  }
+}
