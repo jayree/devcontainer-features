@@ -1,0 +1,10 @@
+{
+  "set_registry": {
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
+    "features": {
+      "npm-registry": {
+        "registry": "@SCOPE:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${localEnv:GITHUB_TOKEN}"
+      }
+    }
+  }
+}

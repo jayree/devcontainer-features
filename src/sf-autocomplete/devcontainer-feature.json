@@ -1,7 +1,7 @@
 {
   "name": "sf autocomplete",
   "id": "sf-autocomplete",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Enables sf zsh autocompletion.",
   "documentationURL": "https://github.com/jayree/devcontainer-features/tree/main/src/sf-autocomplete",
   "installsAfter": [
