@@ -1,10 +1,13 @@
 {
   "name": "sf plugins",
   "id": "sf-plugins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Installs sf plugins.",
   "documentationURL": "https://github.com/jayree/devcontainer-features/tree/main/src/sf-plugins",
-  "installsAfter": ["ghcr.io/devcontainers-contrib/features/salesforce-cli"],
+  "installsAfter": [
+    "ghcr.io/devcontainers-contrib/features/salesforce-cli",
+    "ghcr.io/jayree/devcontainer-features/npm-registry"
+  ],
   "options": {
     "plugins": {
       "type": "string",

@@ -1,7 +1,7 @@
 {
   "name": "npm registry",
   "id": "npm-registry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add npm registry.",
   "documentationURL": "https://github.com/jayree/devcontainer-features/tree/main/src/npm-registry",
   "options": {
