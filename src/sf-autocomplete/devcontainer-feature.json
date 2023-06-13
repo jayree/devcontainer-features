@@ -6,6 +6,7 @@
   "documentationURL": "https://github.com/jayree/devcontainer-features/tree/main/src/sf-autocomplete",
   "installsAfter": [
     "ghcr.io/devcontainers-contrib/features/salesforce-cli",
-    "ghcr.io/devcontainers/features/common-utils"
+    "ghcr.io/devcontainers/features/common-utils",
+    "ghcr.io/jayree/devcontainer-features/sf-plugins"
   ]
 }
