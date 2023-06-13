@@ -20,6 +20,9 @@ source dev-container-features-test-lib
 # The 'check' command comes from the dev-container-features-test-lib.
 check "validate npmrc" cat /home/vscode/.zshrc | grep "SF_AC_ZSH_SETUP_PATH"
 check "validate plugin install" sf plugins | grep "@jayree/sfdx-plugin-manifest"
+
+echo $(cat /home/vscode/.cache/sf/autocomplete/functions/zsh/_sf)
+
 check "validate autocomplete for plugin commands" cat /home/vscode/.cache/sf/autocomplete/functions/zsh/_sf | grep "_sf_jayree_manifest_git"
 
 # Report result
