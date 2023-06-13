@@ -11,7 +11,7 @@
   "options": {
     "plugins": {
       "type": "string",
-      "proposals": ["@jayree/sfdx-plugin-org,@jayree/sfdx-plugin-manifest"],
+      "proposals": ["@jayree/sfdx-plugin-manifest,@jayree/sfdx-plugin-org,@jayree/sfdx-plugin-prettier,@jayree/sfdx-plugin-source"],
       "default": "",
       "description": "Comma separated list of sf plugins to install."
     }

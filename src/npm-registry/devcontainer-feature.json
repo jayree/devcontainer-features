@@ -2,12 +2,12 @@
   "name": "npm registry",
   "id": "npm-registry",
   "version": "1.0.1",
-  "description": "Add npm registry.",
+  "description": "Adds npm registry.",
   "documentationURL": "https://github.com/jayree/devcontainer-features/tree/main/src/npm-registry",
   "options": {
     "registry": {
       "type": "string",
-      "proposals": ["//npm.pkg.github.com/:_authToken=TOKEN"],
+      "proposals": ["@SCOPE:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${localEnv:GITHUB_TOKEN}"],
       "default": "",
       "description": "Registry configuration."
     }
