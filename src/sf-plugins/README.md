@@ -1,7 +1,7 @@
 
-# sf plugins (sf-plugins)
+# Salesforce CLI (plugins) (sf-plugins)
 
-Installs sf plugins.
+Installs Salesforce CLI (sf) plugins.
 
 ## Example Usage
 
