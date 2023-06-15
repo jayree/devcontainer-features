@@ -3,7 +3,7 @@
 
 This repository contains a _collection_ of Features for Salesforce CLI.
 
-### `sf plugins (sf-plugins)`
+### `Salesforce CLI (plugins) (sf-plugins)`
 
 Installs sf plugins.
 
@@ -23,7 +23,7 @@ Installs sf plugins.
 |-----|-----|-----|-----|
 | plugins | Comma separated list of sf plugins to install. | string | - |
 
-### `sf autocomplete (sf-autocomplete)`
+### `Salesforce CLI (autocomplete) (sf-autocomplete)`
 
 Enables sf zsh autocompletion.
 
