@@ -1,8 +1,8 @@
 {
-  "name": "sf plugins",
+  "name": "Salesforce CLI (plugins)",
   "id": "sf-plugins",
-  "version": "1.0.2",
-  "description": "Installs sf plugins.",
+  "version": "1.0.3",
+  "description": "Installs Salesforce CLI (sf) plugins.",
   "documentationURL": "https://github.com/jayree/devcontainer-features/tree/main/src/sf-plugins",
   "installsAfter": [
     "ghcr.io/devcontainers-contrib/features/salesforce-cli",

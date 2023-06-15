@@ -1,8 +1,8 @@
 {
-  "name": "sf autocomplete",
+  "name": "Salesforce CLI (autocomplete)",
   "id": "sf-autocomplete",
-  "version": "1.0.3",
-  "description": "Enables sf zsh autocompletion.",
+  "version": "1.0.4",
+  "description": "Enables Salesforce CLI (sf) zsh autocompletion.",
   "documentationURL": "https://github.com/jayree/devcontainer-features/tree/main/src/sf-autocomplete",
   "installsAfter": [
     "ghcr.io/devcontainers-contrib/features/salesforce-cli",
