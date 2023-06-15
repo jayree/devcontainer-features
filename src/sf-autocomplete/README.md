@@ -1,7 +1,7 @@
 
-# sf autocomplete (sf-autocomplete)
+# Salesforce CLI (autocomplete) (sf-autocomplete)
 
-Enables sf zsh autocompletion.
+Enables Salesforce CLI (sf) zsh autocompletion.
 
 ## Example Usage
 
